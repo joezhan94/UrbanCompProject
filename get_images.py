@@ -61,7 +61,7 @@ def main(api_key, out_dir):
         maxX, maxY = 0, 0
         for x in range(s, l):
             for y in range(s, l):
-                center_gps = (region[1][0] + x * 810 / float(2 ** ZOOM), region[1][1] + y * 500 / float(2 ** ZOOM))
+                center_gps = (region[1][0] + x * 810.0 / float(2 ** ZOOM), region[1][1] + y * 500.0 / float(2 ** ZOOM))
                 # Print bounding box
                 bounding = ((center_gps[1] - 405 / float(2 ** ZOOM)), (center_gps[0] - 288 / float(2 ** ZOOM)), (center_gps[1] + 405 / float(2 ** ZOOM)), (center_gps[0] + 288 / float(2 ** ZOOM)))
                 # print(center_gps)

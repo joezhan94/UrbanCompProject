@@ -11,8 +11,8 @@ for region in regions:
     G_bike = ox.graph_from_bbox((regions[region][1], regions[region][0], regions[region][3], regions[region][2]), network_type='bike')
     # Make figure same size as image
     # fig, ax = plt.subplots(figsize=(2880/300, 2880/300), dpi=300)
-    fig, ax = ox.plot_graph(G_bike, show=False, close=False, node_size=0, edge_color='b', edge_linewidth=2, bgcolor='#000')
-    fig, ax = ox.plot_graph(G_road, show=False, close=False, node_size=0, edge_color='r', edge_linewidth=4, bgcolor='#000', ax=ax)
+    fig, ax = ox.plot_graph(G_bike, show=False, close=False, node_size=0, edge_color='b', edge_linewidth=5, bgcolor='#000')
+    fig, ax = ox.plot_graph(G_road, show=False, close=False, node_size=0, edge_color='r', edge_linewidth=6, bgcolor='#000', ax=ax)
     plt.axis('off')
     SIZE = 10
     size = 576*(SIZE+1), 576*(SIZE+1)
@@ -25,6 +25,3 @@ for region in regions:
     # Resize to 2880x2880
     
     print(f"Saved {region}.png")
-    # break 
-
-
