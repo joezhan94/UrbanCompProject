@@ -1,0 +1,8 @@
+cresi/
+Proposal/
+roadtracer/
+cache/
+*.png
+*.osm
+lightning_logs/
+*.npy
