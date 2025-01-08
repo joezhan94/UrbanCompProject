@@ -81,6 +81,6 @@ def main(api_key, out_dir):
     print(boundsDict)
 if __name__ == "__main__":
     import sys
-    api_key = "AIzaSyBFNqctWiR9_PPaVxHx33znfwp1F9h4Qb4"
+    api_key = ""
     out_dir = "data/imagery"
     main(api_key, out_dir)
