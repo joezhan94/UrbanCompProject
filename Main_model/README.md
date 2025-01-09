@@ -10,7 +10,8 @@
 7) execute train_test_split.py to prepare training and test data input (output in dataset)
 
 ## 2. Model training
-execute train.py (training logs in logs folder, and weights stored in weights folder)
+execute train.py (training logs in logs folder, and weights stored in weights folder)  
+Due to GitHub's file size limit, the trained model weights are not included in this repository. However, you can download them from https://drive.google.com/file/d/1hYVRLYmPASPLxzllsSJjw_G7XBi5nN7K/view?usp=sharing
 
 ## 3. Test
 1) execute test.py to get prediction test accuract;  
