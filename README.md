@@ -17,3 +17,17 @@ strated superior accuracy (90.45%) compared to a baseline U-Net.
  balance of global road morphology reconstruction and local connec
 tivity, overcoming limitations of previous pixel-only and graph-only
  approaches.
+
+## Code Directory
+
+### 1. Get satellite image and road mask data
+execute get_images.py to get satellite images from Google Maps api;
+execute get_masks.py to gat corresponding road network masks from OSMnx library;
+manually adjust the mask images in Adobe Photoshop (or other image editing applications to make masks accurately overlay with roads in satellite images
+
+### 2. Main model - dual-task learning
+follow the readme instructions in Main_model folder
+
+### 3. Baseline model - pixel-based U-Net 
+see readme in Baseline_model folder
+   
